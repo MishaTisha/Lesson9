@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #c4c4c4;
+  font-family: Roboto;
+}
+
+.container {
+  background: #e6e6e6;
+  max-width: 1000px;
+  margin: 50px;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.float {
+  padding: 65px;
+  background-color: #fc8f8f;
+  font-size: 64px;
+  color: white;
+  min-width: 200px;
+  text-align: center;
+}
+
+.float.left {
+  float: left;
+}
+
+.float.right {
+  float: right;
+}
+
+.cards > .float.right {
+  padding: 31px;
+  font-size: 36px;
+  margin-left: 15px;
+  min-width: 100px;
+}
+
+.wrapper > .float.card {
+  float: left;
+  margin-right: 15px;
+}
+
+.wrapper-second > .float.card {
+  float: right;
+  margin-left: 15px;
+}
+
+/* .card.first {
+  float: left;
+}
+
+.card.second{
+  float: right;
+}
+
+.card {
+  padding: 65px;
+  background-color: #fc8f8f;
+  font-size: 64px;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  align-items: flex-start;
+}
+
+.card.second {
+  padding: 31px;
+  font-size: 36px;
+  margin-left: 15px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.wrapper :first-child {
+  margin-right: 15px;
+} */
